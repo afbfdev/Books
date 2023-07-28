@@ -79,7 +79,7 @@ const AddBooks = () => {
 
 
                 <form className="form-inline justify-content-center" onSubmit={handleSubmit}> 
-                    <div className="form-group">
+                    <div className="form-group ml-3">
                         <input 
                            value={title} 
                            type="text" 
