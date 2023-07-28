@@ -79,11 +79,11 @@ const AddBooks = () => {
 
 
                 <form className="form-inline justify-content-center" onSubmit={handleSubmit}> 
-                    <div className="form-group ml-3">
+                    <div className="form-group">
                         <input 
                            value={title} 
                            type="text" 
-                           className="form-control"
+                           className="form-control ml-3"
                             placeholder="Titre"
                             required
                             onChange={e => setTitle(e.target.value)}    
