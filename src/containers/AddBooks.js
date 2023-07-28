@@ -83,7 +83,7 @@ const AddBooks = () => {
                         <input 
                            value={title} 
                            type="text" 
-                           className="form-control"
+                           className="form-control ml-3"
                             placeholder="Titre"
                             required
                             onChange={e => setTitle(e.target.value)}    

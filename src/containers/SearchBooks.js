@@ -25,7 +25,7 @@ const SearchBooks = () => {
 
 
     const handleSave = (title, author) => {
-        const bookToSave = {title:title, author:title}
+        const bookToSave = {title:title, author:author}
             dispatch(addBooks(bookToSave))
             toast.info("Livre Enregistré",
              {position: "bottom-right",
