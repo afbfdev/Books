@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
-const API_KEY=YOUR API
+const API_KEY=YOUR API;
 
 export const searchBook = createAsyncThunk('books/searchBook', async (subject) => {
     return axios
